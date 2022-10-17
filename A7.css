@@ -1,0 +1,111 @@
+h1 {
+  background-color: #0066ff;
+  color: #A9CCE3 ;
+  padding: 20px;
+  margin: 10px
+  font-weight: normal;
+  font-family: sans-serif;
+  font-style: italic;
+  background-image: linear-gradient(to right bottom, #0066ff, #3f71f4, #8190d0);
+
+}
+header a{
+  color:#A9CCE3;
+  text-decoration: none;
+}
+header a:hover{
+  color:pinlk;
+  text-decoration: underline;
+}
+nav li{
+  color:white;
+  display: inline-block;
+  padding:0px;
+  margin: 5px;
+  width: 200px;
+  text-align: left;
+  background-image: linear-gradient(to right bottom, #0066ff, #3f71f4, #8190d0);
+}
+
+
+nav li a{
+  color:#A9CCE3;
+  padding:15px;
+  display: inline-block;
+  width: 200px;
+  text-decoration:none;
+font-weight: bold;
+text-align: left;
+}
+
+nav a:hover{
+  color:black;
+}
+nav li a:hover{
+  background-color: red;
+
+}
+
+h2{
+  font-weight: normal;
+  border-bottom: 3px solid darkblue;
+  color: darkblue;
+  margin: 10px;
+}
+.imgbox{
+  border: 3px solid darkblue;
+  margin: 10px;
+}
+.lol{
+  margin-left: 25px;
+}
+.floatimg{
+  float: left;
+  margin-right: 16px;
+}
+.floatimgr{
+  float: right;
+  margin-left: 16px;
+}
+.b{
+  font-weight: bold;
+  text-align: justify;
+}
+main a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+main a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#ombre{
+  background-image: linear-gradient(to right bottom, #0066ff, #3f71f4, #8190d0);
+  margin: 0;
+  padding:0;
+
+}
+#wrapper {
+  margin: 1em auto;
+  padding: 1em;
+  width: 960px;
+  padding: 0;
+  border: 5px solid darkblue;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12fr);
+  grid-auto-rows: repeat(12fr)
+}
+body{
+  background-image: url(gray.png);
+}
+p{
+  padding: 10px;
+}
+footer{
+  background-color: red;
+  border: 3px solid darkblue;
+  padding: 10px;
+
+}
