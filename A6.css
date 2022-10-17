@@ -72,8 +72,7 @@ footer{
   grid-column: span 12;
 }
 div{
-  color:black;
-}
+  color:black;}
 
 nav{
   grid-column: span 3;
