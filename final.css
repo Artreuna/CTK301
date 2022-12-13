@@ -1,0 +1,110 @@
+h1{
+  background-color: pink;
+  color:white;
+  width:960px;
+  font-family: 'Creepster', cursive;
+
+}
+h2{
+  background-color: pink;
+  color:white;
+  width:960px;
+}
+h3{
+  background-color: pink;
+  color:white;
+  width:960px;
+}
+nav{
+  background: #ff0066;
+  grid-column:span 12;
+}
+nav li{
+  display:inline-block;
+  background-color: #ff80b3;
+  margin: 5px;
+  padding :10px;
+  text-align: right;
+}
+nav li a{
+  color:#ff0066;
+    padding:15px;
+    display: inline-block;
+    width: 200px;
+    text-decoration:none;
+  font-weight: bold;
+  text-align: left;
+}
+nav a:hover{
+  color:black;
+}
+nav li a:hover{
+  background-color: purple;
+color: white;
+}
+header{
+  color:white;
+  background-color: #ff0066;
+  border: 10px solid #ff0066;
+  margin: 10px;
+  font-weight: bold;
+  padding:10px;
+
+
+}
+footer{
+  background-color: #ff0066;
+  color:white;
+  width: 960px;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+#wrapper {
+  margin: 1em auto;
+  padding: 1em;
+  width: 960px;
+  padding: 0;
+  border: 5px solid #ff0066;
+  background-color: white;
+
+  grid-template-columns: repeat(12fr);
+  grid-auto-rows: repeat(12fr)
+}
+body{
+  background-image: url(pinkl.png);
+}
+.imgbox{
+  border: 7px solid #ff0066;
+  margin: 20px;
+  text-align: center;
+
+}
+.lol{
+  margin-left: 60px;
+}
+.class{
+  width: 960px;
+  background-color: pink;
+  color: white;
+
+}
+p{ font-family: 'Nerkoone', cursive; }
+
+.roundedbox {
+  padding: 10px;
+  border: 2px solid #999;
+  background-color:pink;
+  border-radius: 10px;
+  color: #ff0066;
+  font-weight: bolder;
+}
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+}
